@@ -22,13 +22,13 @@ El servicio retorna uno de los siguientes estados clínicos:
 
 servicio_medico/
 │
-├── app.py   # Aplicacion Web
-├── model.py # Lógica simulada de diagnóstico
-├── requirements.txt # Dependencias de Python
-├── Dockerfile   # Imagen Docker del servicio
+├── app.py           # Aplicación web: levanta el servidor Flask, recibe datos del usuario y muestra resultados.
+├── model.py         # Lógica simulada de diagnóstico: función que evalúa los valores ingresados y retorna el estado clínico.
+├── requirements.txt # Dependencias de Python necesarias (Flask, etc.).
+├── Dockerfile       # Define la imagen Docker del servicio para correr la app en cualquier máquina.
 ├── templates/
-│ └── index.html # Interfaz web para el médico
-└── README.md 
+│   └── index.html   # Interfaz web para que el médico ingrese los datos y vea el diagnóstico.
+└── README.md        # Documentación del proyecto, instrucciones de uso, ejemplos y créditos.
 
 
 ---
@@ -80,7 +80,7 @@ Campos de entrada con descripciones y ejemplos.
 
 Diagnóstico mostrado de forma clara y visual.
 
-![Interfaz Web](./imgs/app_web.png)
+![Interfaz Web](./img/app_web.png)
 
 ---
 
@@ -98,9 +98,10 @@ Diagnóstico mostrado de forma clara y visual.
 
 ## Autores
 
-Josue Cobaleda
-Sebastián Bonilla
+* Josue Cobaleda
 
+* Sebastián Bonilla
 
+---
 
 Este proyecto es demostrativo y no debe utilizarse para diagnósticos médicos reales.
