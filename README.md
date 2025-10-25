@@ -20,6 +20,8 @@ El servicio retorna uno de los siguientes estados clínicos:
 
 ## Estructura del proyecto
 
+
+```text
 servicio_medico/
 │
 ├── app.py           # Aplicación web: levanta el servidor Flask, recibe datos del usuario y muestra resultados.
@@ -29,6 +31,7 @@ servicio_medico/
 ├── templates/
 │   └── index.html   # Interfaz web para que el médico ingrese los datos y vea el diagnóstico.
 └── README.md        # Documentación del proyecto, instrucciones de uso, ejemplos y créditos.
+
 
 
 ---
@@ -80,7 +83,7 @@ Campos de entrada con descripciones y ejemplos.
 
 Diagnóstico mostrado de forma clara y visual.
 
-![Interfaz Web](./img/app_web.png)
+<img src="./img/app_web.png" alt="Interfaz Web" width="400" height="auto">
 
 ---
 
