@@ -31,7 +31,7 @@ servicio_medico/
 ├── templates/
 │   └── index.html   # Interfaz web para que el médico ingrese los datos y vea el diagnóstico.
 └── README.md        # Documentación del proyecto, instrucciones de uso, ejemplos y créditos.
-
+```
 
 
 ---
@@ -42,15 +42,16 @@ servicio_medico/
 
 Desde la carpeta raíz del proyecto (donde está el `Dockerfile`):
 
-bash
-docker build -t servicio_medico:1.0 .
+```bash
+docker build -t modelo_servicio:1.0 .
+```
 
 
 ### 2. Ejecutar el contenedor
 
-bash
+```bash
 docker run --rm -p 5000:5000 servicio_medico:1.0
-
+```
 
 ### 3. Acceder a la aplicación
 
