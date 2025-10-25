@@ -44,7 +44,7 @@ Sigue estos pasos para levantar la aplicación en tu computadora:
 Desde la carpeta raíz del proyecto (donde está el `Dockerfile`), ejecuta este comando en la terminal:
 
 ```bash
-docker build -t modelo_servicio:1.0 .
+docker build -t servicio_medico:1.0 .
 ```
 
 Esto crea una imagen de Docker que contiene toda la aplicación y sus dependencias.
