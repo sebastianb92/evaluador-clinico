@@ -119,7 +119,7 @@ Diagnóstico mostrado de forma clara y visual.
 
 * Josué Cobaleda
 
-* Sebastian Bonilla
+* Johan Sebastian Bonilla
 
 ---
 
