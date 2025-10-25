@@ -7,6 +7,8 @@ def home():
     return render_template('index.html')
 
 @app.route('/predecir', methods=['POST'])
+
+
 def predecir():
     edad = int(request.form['edad'])
     pcr = float(request.form['pcr'])
