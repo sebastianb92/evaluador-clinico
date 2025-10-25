@@ -25,7 +25,6 @@ El servicio retorna uno de los siguientes estados clínicos:
 servicio_medico/
 │
 ├── app.py           # Aplicación web: levanta el servidor Flask, recibe datos del usuario y muestra resultados.
-├── model.py         # Lógica simulada de diagnóstico: función que evalúa los valores ingresados y retorna el estado clínico.
 ├── requirements.txt # Dependencias de Python necesarias (Flask, etc.).
 ├── Dockerfile       # Define la imagen Docker del servicio para correr la app en cualquier máquina.
 ├── templates/
