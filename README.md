@@ -38,16 +38,22 @@ servicio_medico/
 
 ## Ejecución con Docker
 
+Sigue estos pasos para levantar la aplicación en tu computadora:
+
 ### 1. Construir la imagen
 
-Desde la carpeta raíz del proyecto (donde está el `Dockerfile`):
+Desde la carpeta raíz del proyecto (donde está el `Dockerfile`), ejecuta este comando en la terminal:
 
 ```bash
 docker build -t modelo_servicio:1.0 .
 ```
 
+Esto crea una imagen de Docker que contiene toda la aplicación y sus dependencias.
+
 
 ### 2. Ejecutar el contenedor
+
+Una vez construida la imagen, ejecuta:
 
 ```bash
 docker run --rm -p 5000:5000 servicio_medico:1.0
@@ -55,14 +61,22 @@ docker run --rm -p 5000:5000 servicio_medico:1.0
 
 ### 3. Acceder a la aplicación
 
-Abre tu navegador en:
+Abre tu navegador web y escribe:
+
 http://localhost:5000
 
 Allí podrás ingresar los valores requeridos (edad, PCR, frecuencia cardíaca) y obtener el diagnóstico correspondiente.
 
+### 4. Detener la aplicación
+
+Para cerrar la app, presiona Ctrl + C en la terminal donde la ejecutaste.
+
+Esto detiene el contenedor y libera el puerto 5000.
+
 ---
 
 ## Ejemplo de uso
+
 
 
 | Variable                      | Descripción                  | Ejemplo |
@@ -70,6 +84,7 @@ Allí podrás ingresar los valores requeridos (edad, PCR, frecuencia cardíaca) 
 | **Edad**                      | Años completos del paciente  | `45`    |
 | **Proteína C Reactiva (PCR)** | Marcador inflamatorio (mg/L) | `8.5`   |
 | **Frecuencia Cardíaca (FC)**  | Latidos por minuto           | `95`    |
+
 
 
 Resultado esperado → ENFERMEDAD LEVE
