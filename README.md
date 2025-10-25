@@ -117,9 +117,9 @@ Diagnóstico mostrado de forma clara y visual.
 
 ## Autores
 
-* Josue Cobaleda
+* Josué Cobaleda
 
-* Sebastián Bonilla
+* Sebastian Bonilla
 
 ---
 
